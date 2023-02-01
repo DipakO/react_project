@@ -7,11 +7,10 @@ const firebaseConfig = {
   projectId: "otp-app-7b300",
   storageBucket: "otp-app-7b300.appspot.com",
   messagingSenderId: "546437325444",
-  appId: "1:546437325444:web:f0dcb6bf9d5089c75058d1"
+  appId: "1:546437325444:web:f0dcb6bf9d5089c75058d1",
 };
-
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
-export default app;
+// export default app;
